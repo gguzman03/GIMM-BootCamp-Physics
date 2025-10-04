@@ -438,6 +438,7 @@ GameObject:
   - component: {fileID: 389734758}
   - component: {fileID: 389734760}
   - component: {fileID: 389734759}
+  - component: {fileID: 389734761}
   m_Layer: 0
   m_Name: Player Hold
   m_TagString: Player
@@ -607,6 +608,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &389734761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389734755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad4c54e69a189d459d0c678b481c426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DodgeRoll
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

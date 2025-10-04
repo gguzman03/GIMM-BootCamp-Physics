@@ -94,5 +94,12 @@ public class Movement2D : MonoBehaviour
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce); // Sets the y velocity of the player to the jumpforce. Preserves the x velocity.
 
     }
+
+
+    public void Dodger(float boost)
+    {
+        Debug.Log("dodged");
+        moveSpeed += boost;
+    }
     #endregion
 }
